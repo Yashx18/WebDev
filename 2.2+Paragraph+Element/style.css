@@ -1,13 +1,30 @@
-p{
+
+#one{
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#two{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
-
-
-
-
-
+h1{
+    text-decoration:  blue underline;
+    text-align: center;
+}
+h2{
+    text-decoration: overline dotted;
+    text-align: center;
+}
+h3{
+    text-decoration: underline overline;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+  
+}
 
 
 

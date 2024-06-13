@@ -1,4 +1,23 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
 
+p{
+   
+    text-align: center;
+}
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+}
+/* 
 #one{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -25,6 +44,9 @@ a{
     text-decoration: none;
   
 }
+*{
+    text-transform: uppercase;
+} */
 
 
 

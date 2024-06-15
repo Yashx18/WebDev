@@ -1,0 +1,61 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+.box1{
+    position: static;
+    background-color: red;
+    /* top: 50px;
+    right: 50px;
+    bottom: 50px;
+    left: 50px; 
+    they wont work because the position is Static*/
+}
+.box2{
+    position: relative;
+    top: 10px;
+    left: 107px;
+    background-color: green;
+    /* from it's own position */
+}
+.box3{
+    position: absolute;
+    top: 500px;
+    left: 10px;
+    background-color: pink;
+    /* from it's parent/ancestor(non-static)tag */
+}
+.box4{
+    background-color: blue;
+    position: fixed;
+    top: 0px;
+    /* for whole document */
+}
+.box5{
+    position: sticky;
+    top: 0px;
+    background-color: brown;
+}
+/* body{
+    font-size: 15px;
+}
+.one{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    font-size: 10px;
+}
+.two{
+    height: 50%;
+    /* width: 50%; */
+    /* background-color: pink;
+    margin: auto;
+    font-size: 2em; */
+    /* 1.5 times of parent's font size */
+    /* width: 5rem; */
+    /* 5 times of it's font size/own value 
+}
+ */

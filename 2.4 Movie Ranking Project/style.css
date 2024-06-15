@@ -1,42 +1,87 @@
+body{
+    text-align: center;
+}
+
 div{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border: 2px solid black;
+    display: inline-block;
+}
+.container{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: aqua;
+}
+.box4{
+    background-color: brown;
+}
+.box5{
+    background-color: purple;
+}
+/* div{
     height: 100px;
     width: 100px;
     background-color: aqua;
     border: 2px solid black;
     display: inline-block;
 }
+body{
+    background-image: url("japan.img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
 .box1{
     position: static;
     background-color: red;
+    background-image: url("japan.img.jpg");
+    background-size: cover;
+    
     /* top: 50px;
     right: 50px;
     bottom: 50px;
     left: 50px; 
-    they wont work because the position is Static*/
+    they wont work because the position is Static
 }
 .box2{
-    position: relative;
+    /* position: relative;
     top: 10px;
-    left: 107px;
+    left: 107px; 
     background-color: green;
-    /* from it's own position */
+    
+    /* z-index: 1; */
+    /* from it's own position 
 }
 .box3{
-    position: absolute;
-    top: 500px;
-    left: 10px;
+    /* position: absolute;
+    top: 50px;
+    left: 10px; 
     background-color: pink;
-    /* from it's parent/ancestor(non-static)tag */
+    /* from it's parent/ancestor(non-static)tag 
 }
 .box4{
     background-color: blue;
-    position: fixed;
-    top: 0px;
-    /* for whole document */
+    /* position: fixed;
+    top: 0px; */
+    /* for whole document 
 }
 .box5{
-    position: sticky;
+    /* position: sticky;
     top: 0px;
+    z-index: -1; 
     background-color: brown;
 }
 /* body{
@@ -58,4 +103,5 @@ div{
     /* width: 5rem; */
     /* 5 times of it's font size/own value 
 }
- */
+ */ 
+

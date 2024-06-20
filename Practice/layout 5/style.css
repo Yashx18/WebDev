@@ -52,7 +52,7 @@
 .top-left-inner-div{
     height: 65px;
     width: 95%;
-    background-color: #ff8fab;
+    background-color: #fb6f92;
 }
 /* LEFT SIDE TOP RIGHT */
 .top-right{
@@ -75,7 +75,7 @@
 .top-right-inner-div-long{
     height: 92%;
     width: 22%;
-    background-color: #ff8fab;
+    background-color: #fb6f92;
 }
 
 .top-right-short{
@@ -91,7 +91,7 @@
 .top-right-inner-div{
     height: 65px;
     width: 22%;
-    background-color: #ff8fab;
+    background-color: #fb6f92;
 
 }
 
@@ -117,7 +117,7 @@
 .bottom-left-inner-div{
     height: 310px;
     width: 20%;
-    background-color: #ff8fab;
+    background-color: #fb6f92;
 }
 /* LEFT SIDE BOTTOM RIGHT */
 .bottom-right{
@@ -132,7 +132,7 @@
 }
 /* BOTTOM RIGHT INNER DIV */
 .bottom-right-inner-div{
-    background-color: #ff8fab;
+    background-color: #fb6f92;
     height: 65px;
     width: 22%;
 }
@@ -157,12 +157,12 @@
     align-items: center;
 }
 .one-inner-short{
-    background-color: #ff8fab;
+    background-color: #fb6f92;
     height: 144px;
     width: 90%;
 }
 .one-inner-long{
-    background-color: #ff8fab;
+    background-color: #fb6f92;
     height: 314px;
     width: 90%;
 }
@@ -177,13 +177,13 @@
     align-items: center;
 }
 .two-inside1{
-    background-color: #ff8fab;
+    background-color: #fb6f92;
     height: 314px;
     width: 96%;
     margin-top: 5px;
 }
 .two-inside2{
-    background-color: #ff8fab;
+    background-color: #fb6f92;
     height: 314px;
     width: 96%;
     margin-bottom: 5px;
@@ -199,9 +199,7 @@
     align-items: center;
 }
 .three-inner{
-    background-color: #ff8fab;
+    background-color: #fb6f92;
     height: 70px;
     width: 96%;
-
-
 }

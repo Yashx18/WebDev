@@ -47,12 +47,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    padding-bottom: px;
 }
 /* TOP LEFT INNER DIV */
 .top-left-inner-div{
-    height: 65px;
+    /* height: 65px; */
+    font-size: 54px;
     width: 95%;
     background-color: #fb6f92;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* LEFT SIDE TOP RIGHT */
 .top-right{
@@ -69,13 +74,21 @@
     width: 100%;
     /* border: 1px solid brown; */
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-around;
 }
 .top-right-inner-div-long{
-    height: 145px;
-    width: 22%;
+    /* height: 145px; */
+    width: 21%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-grow: ; */
+    /* font-weight: ; */
     background-color: #fb6f92;
+    /* margin: 10px; */
+    margin-top: 10px;
+    margin-bottom: 7px;
 }
 
 .top-right-short{
@@ -89,8 +102,12 @@
     flex-wrap: wrap;
 }
 .top-right-inner-div{
-    height: 65px;
-    width: 22%;
+    /* height: 65px; */
+    width: 21%;
+    font-size: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #fb6f92;
 
 }
@@ -111,13 +128,19 @@
     /* border: 2px solid black; */
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: stretch;
 }
 /* BOTTOM LEFT INNER DIV */
 .bottom-left-inner-div{
-    height: 310px;
+    /* height: 310px; */
+    /* font-size: 100px; */
     width: 20%;
+    /* flex-grow: 1; */
     background-color: #fb6f92;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
 }
 /* LEFT SIDE BOTTOM RIGHT */
 .bottom-right{
@@ -133,8 +156,12 @@
 /* BOTTOM RIGHT INNER DIV */
 .bottom-right-inner-div{
     background-color: #fb6f92;
-    height: 65px;
-    width: 22%;
+    /* height: 65px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 54px;
+    width: 21%;
 }
 /* RIGHT SIDE */
 .right-side{
@@ -160,12 +187,19 @@
     background-color: #fb6f92;
     height: 144px;
     width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .one-inner-long{
     background-color: #fb6f92;
-    height: 314px;
+    height: 310px;
     width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 /* RIGHT SIDE TWO */
 .two{
     height: 650px;
@@ -173,20 +207,46 @@
     /* border: 1px solid darkolivegreen; */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+}
+.two-top{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 308px;
+    margin-bottom: 8px;
+
+}
+.two-bottom{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 308px;
+    margin-top: 8px;
+
 }
 .two-inside1{
     background-color: #fb6f92;
-    height: 310px;
+    /* height: 309px; */
     width: 96%;
-    margin-top: 9px;
+    /* margin-top: 9px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .two-inside2{
     background-color: #fb6f92;
-    height: 310px;
+    /* height: 310px; */
     width: 96%;
-    margin-bottom: 9px;
+    /* margin-bottom: 9px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 /* RIGHT SIDE THREE */
 .three{
@@ -197,11 +257,20 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    /* margin-top: -9px; */
+    /* margin-bottom:  */
 }
 .three-inner{
     background-color: #fb6f92;
-    height: 70px;
+    /* height: 65px; */
+    font-size: 57px;
     width: 90%;
-    /* margin-top:10px;
-    margin-bottom:10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
 }

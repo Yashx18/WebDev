@@ -22,7 +22,7 @@
 .left{
     width: 58%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .left-navA{
     text-decoration: none;
@@ -229,5 +229,8 @@ h2{
 }
 .search{
     border-radius: 25px;
-    
+}
+.user-login{
+    text-decoration: none;
+    color: #ddd;
 }

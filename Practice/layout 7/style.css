@@ -58,15 +58,15 @@ input{
     width: 300px;
     height: 35px;
     /* text-align: center; */
-    padding: 0 0 -2px 7px
+    /* padding: 0 0 -2px 7px */
 }
 input::placeholder{
     font-family: "Mukta", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 17px;
+    font-size: 16px;
     color: teal;
-    /* padding: 6px 0 2px 5px; */
+    padding: 10px;
 }
 #search-icon{
     height: 17px;
@@ -125,7 +125,8 @@ button{
 }
 .text{
     flex-wrap: wrap;
-    flex-direction: column;
+    /* flex-direction: column; */
+    justify-content: space-between;
 }
 a{
     text-decoration: none;
@@ -190,4 +191,30 @@ pre{
     padding: 50px;
     width: 92.5%;
     justify-content: space-between;
+}
+.text-left, .text-right{
+    padding: 20px 0 0 0;
+}
+.credit{
+    /* margin: 40px; */
+    /* width: 300px; */
+    padding: 0px 0px 0px 168px;
+    margin: 112px 0px 0px 0px;
+    /* background-color: aqua; */
+}
+#credit{
+    font-size: 18px;
+    color: rgb(79, 66, 66);
+}
+.copyrights{
+    margin: 90px 0px 0px 0px;
+    width: 380px;
+}
+.font{
+    color: gray;
+}
+.common-font{
+    font-family: "Mukta", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }

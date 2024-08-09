@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Mukta", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+} 
+.d-flex{
+    display: flex;
+}
+.align-item-center{
+    align-items: center;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-space-around{
+    justify-content: space-around;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.flex-direction-column{
+    flex-direction: column;
+}
+.navigation-bar{
+    /* border: 1px solid black; */
+    background-color: #5f19c5;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+.logo{
+    /* border: 1px solid black ; */
+    width: 40%;
+    padding: 7px 0 3px 0;
+    /* font-size: inherit; */
+}
+.nav-bar{
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.nav-buttons{
+    /* border: 1px solid black; */
+    position: relative;
+    left: 50px;
+    width: 63%;
+    margin: 2px 0px 0px 0px;
+}
+.nav-button-links{
+    text-decoration: none;
+    color: #d1b6eb;
+    padding: 24px 0 24px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+#logo{
+    padding: 20.5px 40px 20.5px 12px;
+}
+.main-page{
+    width: 100%;
+    /* border: 1px solid black; */
+
+    background-color: #5a19c5;
+}
+.left-content{
+    margin-top: 100px ;
+    width: 50%;
+    border: 1px solid black;
+}
+.right-content{
+    margin-top: 100px ;
+    width: 50%;
+    /* border: 1px solid black; */
+    /* padding:; */
+}
+.download{
+    border: 1px solid #bf00dc;
+    border-radius: 45px;
+    width: 180px;
+    background-color: #bf00dc;
+    padding: 9px 10px 9px 10px;
+}
+.download-button{
+    text-decoration: none;
+    color: #fdfbfe;
+    padding:  0 9px 0 0;
+}
+.play-button{
+    border: 2px solid  #a38ed8;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: beige;
+}
+#play-icon{
+    height: 24px;
+    width: 24px;
+}
+.watch-now{
+    font-size: 18px;
+    color: whitesmoke;
+
+}
+.action-buttons{
+    width: 70%;
+}
+.heading-h1{
+    color: white;
+    /* font-weight: 500; */
+    font-size: 55px;
+    /* margin-bottom: 25px; */
+    line-height: 1.25;
+}
+.heading-text{
+    color: white;
+    /* font-size: 24px; */
+    /* margin-bottom: 25px; */
+}
+.front-content{
+    width: 85%;
+}
+.details{
+    width: 90%;
+}
+.numbers{
+    color: white;
+    font-size: 25px;
+}
+.user{
+    color: white;
+    font-size: 15px;
+}
+.mobile-image{
+    padding: 0px 0px 0px 54px;
+}

@@ -39,26 +39,33 @@
     width: 350px;
     /* background-color: aqua; */
 }
-.lower{
+.bg-img{
+    /* position: absolute; */
+    /* position: fixed; */
+    position: relative;
     width: 100%;
-    /* background-color: blueviolet; */
-    /* padding: 20px; */
-    justify-content: center;
-    background-image: url(best\ img.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* height: 300px; */
     
 }
-.search{
-    margin: 125px;
+.lower{
+    width: 100%;
     justify-content: center;
+    /* background-image: url(best\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     */
+}
+.search{
+    /* margin: 125px; */
+    /* justify-content: center; */
+    position: absolute;
+    top: 140px;
+    left: 470px;
 }
 input{
     border: 1px solid white;
     width: 300px;
-    height: 35px;
-    /* text-align: center; */
-    /* padding: 0 0 -2px 7px */
+    padding: 12px 0 12px 14px;
 }
 input::placeholder{
     font-family: "Mukta", sans-serif;
@@ -66,20 +73,18 @@ input::placeholder{
     font-style: normal;
     font-size: 16px;
     color: teal;
-    padding: 10px;
+    /* padding: 10px 0 10px 10px; */
 }
 #search-icon{
     height: 17px;
     width: 17px;
-    /* color: whi; */
 }
 button{
-    /* height: 35px; */
     background-color: teal;
-    height: 37px;
     text-decoration: none;
     border: 1px solid teal;
-    padding: 0 20px 0 20px;
+    padding: 9.5px 20px 9.5px 20px;
+    
 }
 .buttons{
     color: teal;
@@ -107,7 +112,7 @@ button{
     justify-content: center;
 }
 .bottom-content{
-    margin: 35px;
+    margin: 15px 0 5px 0px;
 }
 .about{
     padding: 20px;
@@ -134,6 +139,8 @@ a{
 }
 #videos{
     color: black;
+    border-bottom: 2px solid red;
+    /* padding: 10px; */
 }
 #about{
     color: rgb(13, 205, 205);
@@ -180,7 +187,7 @@ pre{
 }
 .numbers{
     justify-content: space-between;
-    width: 190px;
+    width: 215px;
 }
 #pg-one{
     background-color: teal;
@@ -199,7 +206,7 @@ pre{
     /* margin: 40px; */
     /* width: 300px; */
     padding: 0px 0px 0px 168px;
-    margin: 112px 0px 0px 0px;
+    margin: 30px 0px 0px 0px;
     /* background-color: aqua; */
 }
 #credit{
@@ -207,8 +214,9 @@ pre{
     color: rgb(79, 66, 66);
 }
 .copyrights{
-    margin: 90px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
     width: 380px;
+    /* background-color: aqua; */
 }
 .font{
     color: gray;
@@ -217,4 +225,14 @@ pre{
     font-family: "Mukta", sans-serif;
     font-weight: 500;
     font-style: normal;
+}
+.social-media-links{
+    /* width: 300px; */
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+.social-media{
+    width: 150px;
+    /* background-color: blue; */
+    justify-content: space-around;
 }

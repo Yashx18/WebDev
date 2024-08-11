@@ -176,3 +176,85 @@ h5{
 .card-icon{
     margin-bottom: 10px;
 }
+.container{
+    background-image: url(about-bg-shape.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+.upper{
+    width: 85%;
+}
+.upper-left-text{
+    /* border: 1px solid black; */
+    /* width: 50%; */
+    text-align: left;
+}
+.upper-left-text-column{
+    width: 50%;
+}
+.upper-right-img-column{
+    width: 35%;
+    border: 1px solid black;
+    margin: 50px 0 50px 0;
+}
+.upper-right-img{
+    border: 1px solid black;
+    margin: 50px;
+    /* width: 40%; */
+    
+}
+.upper-stats-row{
+    border: 1px solid black;
+    width: 100%;
+}
+.result{
+    border-right: 1px solid grey;
+
+}
+.upper-left-heading{
+    font-size: 40px;
+    line-height: 43px;
+    color: #162d4c;
+    width: 90%;
+    margin-bottom: 20px;
+}
+.upper-left-text-paragraph{
+    font-size: 17px;
+    color: #525259;
+    font-weight: 300;
+    margin-bottom: 27px;
+}
+.upper-left-text-list{
+    /* font-size: 17px; */
+    color: #525259;
+}
+li{
+    font-weight: 300;
+    line-height: 33px;
+}
+.lower{
+    width: 100%;
+    border: 1px solid black;
+
+
+}
+.lower-content{
+    width: 80%;
+    border: 1px solid black;
+
+}
+.lower-left-img-column{
+    width: 50%;
+    /* border: 1px solid black; */
+}
+.lower-left-img{
+    width: 90%;
+}
+.lower-right-text-column{
+    width: 50%;
+    border: 1px solid black;
+}

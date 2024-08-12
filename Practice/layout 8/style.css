@@ -258,3 +258,6 @@ li{
     width: 50%;
     border: 1px solid black;
 }
+.app-download{
+    border-bottom: 1px solid black;
+}

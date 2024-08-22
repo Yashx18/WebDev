@@ -220,17 +220,17 @@ h5{
 }
 .upper-right-img-column{
     width: 35%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 50px 0 50px 0;
 }
 .upper-right-img{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 50px;
     /* width: 40%; */
     
 }
 .upper-stats-row{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100%;
 }
 .result{
@@ -260,13 +260,13 @@ li{
 }
 .lower{
     width: 100%;
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
 
 
 }
 .lower-content{
     width: 80%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
 }
 .lower-left-img-column{
@@ -278,28 +278,28 @@ li{
 }
 .lower-right-text-column{
     width: 50%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .app-download{
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
     /* background: linear-gradient(75deg, #4f1bc5, #7b17c5) !important; */
 }
 .apps-screenshot{
     width: 100%;
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
 }
 .app-screenshot-container{
     width: 85%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .screenshot-row{
     /* background-color: blue; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* width: 42%; */
 }
 .workprocess-container{
     width: 100%;
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
     /* background-color: #bf00dc; */
 }
 .workprocess-row{
@@ -321,7 +321,7 @@ li{
 .counter-box{
     width: 20%;
     /* background-color: orange; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .text-white{
     color: white;
@@ -332,11 +332,11 @@ li{
 .pricing{
     background-color: #f5f5f5;
     width: 100%;
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
 }
 .pricing-container{
     width: 85%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .pricing-heading{
     width: 100%;
@@ -367,4 +367,12 @@ li{
     background-color: #6730e3;
     border: 1px solid #6730e3;
     color: white;
+}
+.count-number{
+    font-size: 30px;
+    font-weight: 900;
+}
+.counter-box-text{
+    font-size: 16px;
+    font-weight: 400;
 }

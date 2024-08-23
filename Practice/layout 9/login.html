@@ -15,20 +15,101 @@
 </head>
 
 <body>
-    <div class="login-page d-flex align-item-center justify-content-center">
-        <div class="background">
-            <div class="login-content">
+    <div class="login-page flex-item-center">
+        <div class="background flex-item-center">
+            <div class="login-content flex-item-center flex-direction-column">
                 <div class="upper-section d-flex align-item-center justify-content-center flex-direction-column">
-                    <img src="/WebDev/Practice/layout 9/strawpoll-logo-new.svg" alt="strawpoll-logo-new" width="48px">
-                    <h2 class="login-heading">Log in to your account</h2>
-                <div class="create-new">
-                    <span>Or</span>
-                    <a href="sign-up.html" class="create-new-acc">create a free account</a>
-                </div>
+                   <div class="top-portion flex-item-center flex-direction-column">
+                    <a href="index.html">
+                        <img src="/WebDev/Practice/layout 9/strawpoll-logo-new.svg" alt="strawpoll-logo-new" width="48px" class="strawpoll-logo-new">
+                       </a>
+                        <h2 class="login-heading">Log in to your account</h2>
+                    <div class="create-new">
+                        <span class="login-text or">Or</span>
+                        <a href="sign-up.html" class="login-text create-new-acc text-link">create a free account</a>
+                    </div>
+                   </div>
 
                 </div>
-                <div class="middle-section"></div>
-                <div class="bottom-section"></div>
+                <div class="middle-section flex-item-center flex-direction-column">
+                    <div class="login-form flex-item-center flex-direction-column">
+                        <div class="login-detail-section">
+                            <form action="#">
+                                <div class="email">
+                                    <label for="email" class="input-section-label">Email</label>
+                                    <div class="input-email">
+                                        <input type="email" class="input-section">
+                                    </div>
+                                </div>
+                                <div class="password">
+                                    <label for="password" class="input-section-label">Password</label>
+                                    <div class="input-password">
+                                        <input type="password" class="input-section">
+                                    </div>
+                                </div>
+                                <div class="remember-me-forgot-section d-flex align-item-center justify-content-space-between">
+                                    <div class="remember-me">
+                                        <input type="checkbox" name="remember-me" id="remember-me">
+                                        <label for="remember-me" class="remember-me">Remember me</label>
+                                    </div>
+                                    <div class="forgot-password ">
+                                        <a href="#" class="text-link">Forgot your password?</a>
+                                    </div>
+                                </div>
+                                <div class="login-btn">
+                                    <button>Log in</button>
+                                </div>
+                            </form>
+                        </div>
+                    <div class="links-section">
+                        <div class="options-text">
+                            <div class="other-options">
+                                <span>Or continue with</span>
+                            </div>
+                        </div>
+                        <div class="other-links flex-item-center">
+                            <div class="google">
+                                <a href="" class="google-link text-link">
+                                    <img src="/WebDev/Practice/layout 9/icons8-google-20.png" alt="google-icon" >
+                                    <span>Google</span>
+                                </a>
+                            </div>
+                            <div class="microsoft ">
+                                <a href="" class="microsoft-link text-link">
+                                    <img src="/WebDev/Practice/layout 9/icons8-microsoft-25.png" alt="microsoft-section" width="20px"><span>Microsoft</span>
+                                </a>
+                            </div>
+                            <div class="discord">
+                                <a href="" class="discord-link text-link">
+                                    <img src="/WebDev/Practice/layout 9/icons8-discord-20.png" alt="discord-icon" ><span>Discord</span>
+                                </a>
+                            </div>
+                            <div class="facebook">
+                              <a href="" class="text-link facebook-link">
+                                <img src="/WebDev/Practice/layout 9/icons8-facebook-20.png" alt="facebook-icon" ><span>Facebook</span>
+                              </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="bottom-section flex-item-center flex-direction-column">
+                    <div class="sign-up-link">
+                        <span>Don't have an account yet?</span>
+                        <a href="sign-up.html">Sign up</a>
+                    </div>
+                    <div class="strawpoll-contact-links">
+                        <div class="strawpoll-links-section">
+                            <a href="https://strawpoll.com/">Home</a>
+                            <span>·</span>
+                            <a href="https://strawpoll.com/contact/">Contact</a> 
+                            <span>·</span>
+                            <a href="https://strawpoll.com/terms/">Terms</a> 
+                            <span>·</span>
+                            <a href="https://strawpoll.com/imprint/">Imprint</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

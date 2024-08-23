@@ -4,6 +4,7 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    text-decoration: none;
 }
 
 .d-flex {
@@ -34,6 +35,12 @@
     justify-content: space-evenly;
 }
 
+.flex-item-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .flex-direction-column {
     flex-direction: column;
 }
@@ -42,3 +49,100 @@
     background-color: #111827;
     width: 100%;
 }
+.background{
+    width: 100%;
+}
+.login-content{
+    width: 100%;
+    border: 1px solid whitesmoke;
+}
+.upper-section{
+    width: 100%;
+}
+.middle-section{
+    width: 100%;
+    border: 1px solid white;
+}
+.login-form{
+    width: 448px;
+    border: 1px solid white;
+    background-color: #1f2937;
+}
+
+.bottom-section{
+    width: 100%;
+    border: 1px solid white;
+}
+.login-heading{
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.strawpoll-logo-new{
+    margin-top: 23px;
+}
+.text-link{
+    color: rgb(129 140 248 );
+}
+/* .google , .discord , .facebook , .microsoft{
+    color: rgb(229 231 235);
+    /* padding: 10px; */
+.google{
+    border: 1px solid white;
+}
+.google-link{
+    color: rgb(229 231 235);
+    background-color: rgb(75 85 99);
+
+}
+.microsoft-link{
+    color: rgb(229 231 235);
+    background-color: rgb(75 85 99);
+
+}
+.discord-link{
+    color: rgb(229 231 235);
+    background-color: rgb(75 85 99);
+
+}
+.facebook-link{
+    color: rgb(229 231 235);
+    background-color: rgb(75 85 99);
+}
+.other-links{
+    flex-wrap: wrap;
+}
+.top-portion{
+    /* border: 1px solid white; */
+    width: 448px;
+}
+/* .create-new{
+    margin-top: 5px;
+} */
+.or{
+    color: rgb(130, 135, 140);
+}
+.login-text{
+    font-size: 14px;
+}
+.input-section{
+    background-color: #2a3441;
+    width: 366px;
+    padding: 8px 16px;
+    color: white;
+    border: 1px solid rgb(98, 98, 98); 
+    border-radius: 5px;
+}
+.input-section:focus{
+    border: 2px solid rgb(129 140 248 );
+    outline: none;
+}
+.input-section-label{
+    color: #d4d2e0;
+}.remember-me{
+    color: rgb(239, 233, 233);
+}
+/* .forgot-password{
+    outline: none;
+} */

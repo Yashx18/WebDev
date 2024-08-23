@@ -55,52 +55,54 @@
     background-color: #1f2937;
 }
 
-.nav-bar{
+.nav-bar {
     width: 90%;
     /* border: 1px solid black; */
     background-color: #1f2937;
 }
+
 .left-navbar-section {
     width: 50%;
 }
-.strawpoll-logo{
+
+.strawpoll-logo {
     width: 30%;
 }
-.left-section-btns{
+
+.left-section-btns {
     width: 70%;
 }
+
 .right-navbar-section {
     width: 15%;
     /* background-color: red; */
 }
-.user-btns{
+
+.user-btns {
     width: 100%;
 }
-.navbar-buttons{
-    text-decoration: none;
-    color: #dfe2e8;
-    font-size: 14px;
-    font-weight: 600;
-    padding: 21px 10px 21px 10px;
-}
-.logo{
+
+.logo {
     font-size: 30px;
     font-weight: 600;
     color: white;
     padding: 9px 20px 9px 0px;
 }
-.user-buttons{
-    text-decoration: none; 
+
+.user-buttons {
+    text-decoration: none;
     font-weight: 500;
-    
+
 }
-.login-btn{
+
+.login-btn {
     color: #dfe2e8;
     /* border: 1px solid black; */
     font-size: 14px;
     padding: 10px 20px 10px 20px;
 }
-.sign-up-btn{
+
+.sign-up-btn {
     color: white;
     background-color: #6366f1;
     border: 1px solid #6366f1;
@@ -109,17 +111,48 @@
     margin-right: 15px;
     border-radius: 8px;
 }
-.front-landing-page{
+
+.front-landing-page {
     /* width: 100%; */
     background-color: #111827;
 }
+
 /* .front-img-background{
-    
-    
 } */
-.index-splash{
+.index-splash {
     margin-top: 98px;
     border: 1px solid #111827;
     border-radius: 16px;
     box-shadow: 10px;
+}
+
+.create-poll:hover {
+    border-bottom: 2px solid rgb(192, 187, 187);
+    padding: 21px 10px 19px 10px;
+    color: #cbced2;
+}
+
+.schedule-meeting:hover {
+    border-bottom: 2px solid rgb(192, 187, 187);
+    padding: 21px 10px 19px 10px;
+    color: #cbced2;
+}
+
+.demo:hover {
+    border-bottom: 2px solid rgb(192, 187, 187);
+    padding: 21px 10px 19px 10px;
+    color: #cbced2;
+}
+
+.pricing:hover {
+    border-bottom: 2px solid rgb(192, 187, 187);
+    padding: 21px 10px 19px 10px;
+    color: #cbced2;
+}
+.navbar-buttons {
+    text-decoration: none;
+    color: #dfe2e8;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 21px 10px 21px 10px;
 }

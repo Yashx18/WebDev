@@ -39,6 +39,12 @@
     flex-direction: column;
 }
 
+.flex-item-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .strawpoll-landing-page {
     width: 100%;
 }
@@ -150,10 +156,119 @@
     padding: 21px 10px 19px 10px;
     color: #cbced2;
 }
+
 .navbar-buttons {
     text-decoration: none;
     color: #dfe2e8;
     font-size: 14px;
     font-weight: 600;
     padding: 21px 10px 21px 10px;
+}
+
+.bottom-section {
+    width: 100%;
+    margin-top: 100px;
+    border-top: 1.5px solid #445064;
+    background-color: rgba(17, 24, 39, 255);
+}
+
+.footer-container {
+    width: 90%;
+    padding-top: 60px;
+    /* border: 1px solid white; */
+}
+
+.copyright-text {
+    color: #9CA3AF;
+}
+
+.link-list {
+    list-style: none;
+}
+li{
+    margin-top: 16px;
+}
+.link{
+    color: rgb(129 140 248);
+    
+}
+.link:hover{
+    color: rgb(99 102 241);
+}
+.about-strawpoll{
+    width: 31%;
+}
+.footer-links-section{
+    width: 100%;
+}
+.footer-heading{
+    color: #D1D5DB;
+}
+.footer-strawpoll-logo{
+    color: #D1D5DB;
+}
+.footer-color{
+    color: #D1D5DB;
+}
+.language{
+    color: #E5E7EB;
+}
+.language-button{
+    font-size: 14px;
+    background-color: rgb(55 65 81);
+    border: 1px solid  rgb(55 65 81);
+    padding: 8px 16px;
+    border-radius: 5px;
+    
+}
+.language-button:hover{
+    background-color: rgb(81, 92, 111);
+    border: 1px solid  rgb(81, 92, 111);
+    cursor: pointer;
+}
+/* .dropdown-icon{
+    margin-left: 500px;
+} */
+ .language-text{
+    margin-right: 9px;
+ }
+ .copyrights{
+    padding: 32px 0 32px 0;
+    margin-top: 48px;
+    width: 100%;
+ }
+ .footer-text{
+    margin-top: 32px;
+    word-spacing: -1px;
+ }
+ .btn{
+    margin-left: 12px;
+    display: flex;
+ }
+ .social-media-links{
+    width: 100%;
+    margin-top: 32px;
+ }
+.language-option{
+    margin-top: 32px;
+}
+.l-button{
+    margin-left: 12px;
+}
+.footer-h3{
+    font-weight: 600;
+    font-size: 16px;
+}
+.strawpoll-link-section{
+    width: 69%;
+}
+.link-box{
+    width: 40%;
+    /* margin-left: 15px; */
+}
+.solution-support-section{
+    width: 42%;
+}
+.company-legal-section{
+    width: 42%;
 }

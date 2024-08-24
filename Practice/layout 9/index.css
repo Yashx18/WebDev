@@ -167,12 +167,13 @@
 
 .bottom-section {
     width: 100%;
+    border-top: 1.5px solid #445064;
     background-color: rgba(17, 24, 39, 255);
 }
 
 .footer-container {
     width: 90%;
-    padding-top: 64px;
+    padding-top: 60px;
     /* border: 1px solid white; */
 }
 
@@ -183,17 +184,18 @@
 .link-list {
     list-style: none;
 }
+li{
+    margin-top: 16px;
+}
 .link{
     color: rgb(129 140 248);
+    
 }
 .link:hover{
     color: rgb(99 102 241);
 }
 .about-strawpoll{
-    width: 40%;
-}
-.link-box{
-    width: 15%;
+    width: 31%;
 }
 .footer-links-section{
     width: 100%;
@@ -218,6 +220,11 @@
     border-radius: 5px;
     
 }
+.language-button:hover{
+    background-color: rgb(81, 92, 111);
+    border: 1px solid  rgb(81, 92, 111);
+    cursor: pointer;
+}
 /* .dropdown-icon{
     margin-left: 500px;
 } */
@@ -229,3 +236,38 @@
     margin-top: 48px;
     width: 100%;
  }
+ .footer-text{
+    margin-top: 32px;
+    word-spacing: -1px;
+ }
+ .btn{
+    margin-left: 12px;
+    display: flex;
+ }
+ .social-media-links{
+    width: 100%;
+    margin-top: 32px;
+ }
+.language-option{
+    margin-top: 32px;
+}
+.l-button{
+    margin-left: 12px;
+}
+.footer-h3{
+    font-weight: 600;
+    font-size: 16px;
+}
+.strawpoll-link-section{
+    width: 69%;
+}
+.link-box{
+    width: 40%;
+    /* margin-left: 15px; */
+}
+.solution-support-section{
+    width: 42%;
+}
+.company-legal-section{
+    width: 42%;
+}

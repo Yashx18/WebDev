@@ -35,7 +35,7 @@
     justify-content: space-evenly;
 }
 
-.flex-item-center{
+.flex-item-center {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,104 +45,140 @@
     flex-direction: column;
 }
 
-.login-page{
+.login-page {
     background-color: #111827;
     width: 100%;
 }
-.background{
+
+.background {
     width: 100%;
 }
-.login-content{
+
+.login-content {
     width: 100%;
     border: 1px solid whitesmoke;
 }
-.upper-section{
+
+.upper-section {
     width: 100%;
 }
-.middle-section{
+
+.middle-section {
     width: 100%;
     border: 1px solid white;
 }
-.login-form{
+
+.login-form {
     width: 448px;
     border: 1px solid white;
     background-color: #1f2937;
 }
 
-.bottom-section{
+.bottom-section {
     width: 100%;
     border: 1px solid white;
 }
-.login-heading{
+
+.login-heading {
     color: white;
     font-weight: 700;
     font-size: 30px;
     margin-top: 10px;
 }
-.strawpoll-logo-new{
+
+.strawpoll-logo-new {
     margin-top: 23px;
 }
-.text-link{
-    color: rgb(129 140 248 );
+
+.text-link {
+    color: rgb(129 140 248);
 }
+
 /* .google , .discord , .facebook , .microsoft{
     color: rgb(229 231 235);
     /* padding: 10px; */
-.google{
+.google {
     border: 1px solid white;
 }
-.google-link{
+
+.google-link {
     color: rgb(229 231 235);
     background-color: rgb(75 85 99);
 
 }
-.microsoft-link{
+
+.microsoft-link {
     color: rgb(229 231 235);
     background-color: rgb(75 85 99);
 
 }
-.discord-link{
+
+.discord-link {
     color: rgb(229 231 235);
     background-color: rgb(75 85 99);
 
 }
-.facebook-link{
+
+.facebook-link {
     color: rgb(229 231 235);
     background-color: rgb(75 85 99);
 }
-.other-links{
+
+.other-links {
     flex-wrap: wrap;
 }
-.top-portion{
+
+.top-portion {
     /* border: 1px solid white; */
     width: 448px;
 }
+
 /* .create-new{
     margin-top: 5px;
 } */
-.or{
+.or {
     color: rgb(130, 135, 140);
 }
-.login-text{
+
+.login-text {
     font-size: 14px;
 }
-.input-section{
+
+.input-section {
     background-color: #2a3441;
     width: 366px;
     padding: 8px 16px;
     color: white;
-    border: 1px solid rgb(98, 98, 98); 
+    border: 1px solid rgb(98, 98, 98);
     border-radius: 5px;
 }
-.input-section:focus{
-    border: 2px solid rgb(129 140 248 );
+
+.input-section:focus {
+    border: 2px solid rgb(129 140 248);
     outline: none;
 }
-.input-section-label{
+
+.input-section-label {
     color: #d4d2e0;
-}.remember-me{
+}
+
+.remember-me {
     color: rgb(239, 233, 233);
 }
+
 /* .forgot-password{
     outline: none;
 } */
+.input-checkbox {
+    border: 1px solid red;
+    /* width: 20px; */
+    /* padding: 20px; */
+    /* margin: 5px; */
+    outline: none;
+    background-color: #2a3441;
+    /* zoom: 2; */
+}
+
+.login-button{
+    width: 100%;
+}

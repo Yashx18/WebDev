@@ -4,6 +4,7 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    text-decoration: none;
 }
 
 .d-flex {
@@ -36,6 +37,12 @@
 
 .flex-direction-column {
     flex-direction: column;
+}
+
+.flex-item-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .strawpoll-landing-page {
@@ -149,6 +156,7 @@
     padding: 21px 10px 19px 10px;
     color: #cbced2;
 }
+
 .navbar-buttons {
     text-decoration: none;
     color: #dfe2e8;
@@ -156,3 +164,68 @@
     font-weight: 600;
     padding: 21px 10px 21px 10px;
 }
+
+.bottom-section {
+    width: 100%;
+    background-color: rgba(17, 24, 39, 255);
+}
+
+.footer-container {
+    width: 90%;
+    padding-top: 64px;
+    /* border: 1px solid white; */
+}
+
+.copyright-text {
+    color: #9CA3AF;
+}
+
+.link-list {
+    list-style: none;
+}
+.link{
+    color: rgb(129 140 248);
+}
+.link:hover{
+    color: rgb(99 102 241);
+}
+.about-strawpoll{
+    width: 40%;
+}
+.link-box{
+    width: 15%;
+}
+.footer-links-section{
+    width: 100%;
+}
+.footer-heading{
+    color: #D1D5DB;
+}
+.footer-strawpoll-logo{
+    color: #D1D5DB;
+}
+.footer-color{
+    color: #D1D5DB;
+}
+.language{
+    color: #E5E7EB;
+}
+.language-button{
+    font-size: 14px;
+    background-color: rgb(55 65 81);
+    border: 1px solid  rgb(55 65 81);
+    padding: 8px 16px;
+    border-radius: 5px;
+    
+}
+/* .dropdown-icon{
+    margin-left: 500px;
+} */
+ .language-text{
+    margin-right: 9px;
+ }
+ .copyrights{
+    padding: 32px 0 32px 0;
+    margin-top: 48px;
+    width: 100%;
+ }

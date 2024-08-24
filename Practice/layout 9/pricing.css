@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.align-item-left {
+    align-items: flex-start;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-space-around {
+    justify-content: space-around;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.justify-content-space-evenly {
+    justify-content: space-evenly;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.strawpoll-landing-page {
+    width: 100%;
+}
+
+.front-page {
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.navigation-bar {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    border-bottom: 1px solid #424f62;
+    background-color: #1f2937;
+}
+
+.nav-bar {
+    width: 90%;
+    /* border: 1px solid black; */
+    background-color: #1f2937;
+}
+
+.left-navbar-section {
+    width: 50%;
+}
+
+.strawpoll-logo {
+    width: 30%;
+}
+
+.left-section-btns {
+    width: 70%;
+}
+
+.right-navbar-section {
+    width: 15%;
+    /* background-color: red; */
+}
+
+.user-btns {
+    width: 100%;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    padding: 9px 20px 9px 0px;
+}
+
+.user-buttons {
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+.login-btn {
+    color: #dfe2e8;
+    /* border: 1px solid black; */
+    font-size: 14px;
+    padding: 10px 20px 10px 20px;
+}
+
+.sign-up-btn {
+    color: white;
+    background-color: #6366f1;
+    border: 1px solid #6366f1;
+    font-size: 14px;
+    padding: 8px 16px;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+
+.front-landing-page {
+    /* width: 100%; */
+    background-color: #111827;
+}
+
+/* .front-img-background{
+} */
+.index-splash {
+    margin-top: 98px;
+    border: 1px solid #111827;
+    border-radius: 16px;
+    box-shadow: 10px;
+}
+
+.create-poll:hover {
+    border-bottom: 2px solid rgb(192, 187, 187);
+    padding: 21px 10px 19px 10px;
+    color: #cbced2;
+}
+
+.schedule-meeting:hover {
+    border-bottom: 2px solid rgb(192, 187, 187);
+    padding: 21px 10px 19px 10px;
+    color: #cbced2;
+}
+
+.demo:hover {
+    border-bottom: 2px solid rgb(192, 187, 187);
+    padding: 21px 10px 19px 10px;
+    color: #cbced2;
+}
+
+.pricing:hover {
+    border-bottom: 2px solid rgb(192, 187, 187);
+    padding: 21px 10px 19px 10px;
+    color: #cbced2;
+}
+.navbar-buttons {
+    text-decoration: none;
+    color: #dfe2e8;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 21px 10px 21px 10px;
+}

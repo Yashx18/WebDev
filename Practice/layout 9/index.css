@@ -53,11 +53,14 @@
     width: 100%;
     /* background-color: aqua; */
 }
-
+.front-text{
+    margin-left: 48px;
+}
 .navigation-bar {
     width: 100%;
     position: fixed;
     top: 0px;
+    z-index: 10;
     border-bottom: 1px solid #424f62;
     background-color: #1f2937;
 }
@@ -139,10 +142,21 @@
     background-color: #111827;
 }
 
-/* .front-img-background{
-} */
+.front-img-background{
+    position: relative;
+    /* margin-left: 32px; */
+
+}
+.front-content{
+    position: absolute;
+    top: 212px;
+    /* left: 32px; */
+    margin-left: 32px;
+}
 .index-splash {
     margin-top: 98px;
+    opacity: 0.29;
+    box-shadow: inset -3px 1px 15px 118px rgba(0,0,0,0.68);
     border: 1px solid #111827;
     border-radius: 16px;
     box-shadow: 10px;
@@ -277,7 +291,7 @@ li{
     width: 69%;
 }
 .link-box{
-    width: 40%;
+    width: 45%;
     /* margin-left: 15px; */
 }
 .solution-support-section{
@@ -285,4 +299,86 @@ li{
 }
 .company-legal-section{
     width: 42%;
+}
+.total-users{
+    /* border-top: 1px solid white; */
+    padding: 48px 0 64px 0;
+}
+.b-right{
+    border-right: 1px solid #474c58;
+}
+.users-number-container{
+    width: 100%;
+    margin-top: 24px;
+}
+.users{
+    width: 19%;
+    padding: 20px;
+}
+.user-numbers{
+    font-size: 36px;
+    font-weight: 800;
+    color: #818CF8;
+}
+.user-text{
+    font-size: 18px;
+    color: #6B7280;
+    font-weight: 400;
+    
+}
+.p-text{
+    font-size: 15px;
+    color: #6B7280;
+    font-weight: 500;
+}
+.h1-text{
+    font-size: 60px;
+    line-height: 1.1;
+    font-weight: 800;
+}
+.txt-front-pg{
+    font-size: 20px;
+    color: #C7D2FE;
+    width: 65%;
+    margin-top: 24px;
+}
+.c-w{
+    color: white;
+}
+.c-b{
+    color: #A5B4FC;
+}
+.no-signup{
+    font-size: 14px;
+    color: #C7D2FE;
+    
+}
+.create-btn{
+    padding: 12px 32px;
+    border-radius: 6px;
+}
+.btn-w{
+    border: 1px solid white;
+    font-weight: 500;
+    background-color: white;
+    color: rgb(99 102 241);
+    padding: 12px 40px;
+    /* width: 189px; */
+}
+.btn-w:hover{
+    background-color: rgb(238 242 255);
+    border: 1px solid rgb(238 242 255);
+}
+.btn-b{
+    border: 1px solid rgb(99 102 241);
+    background-color: rgb(99 102 241);
+    color: white;
+}
+.btn-b:hover{
+    --tw-bg-opacity: 0.7;
+}
+.poll-create{
+    width: 34.5%;
+    margin-top: 40px;
+    margin-bottom: 14px;
 }

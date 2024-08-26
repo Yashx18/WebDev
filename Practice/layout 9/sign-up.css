@@ -246,3 +246,48 @@ h2 {
 /* .p-plcy{
     margin-right: 5px;
 } */
+ 
+.checkbox {
+    width: 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    height: 20px;
+    background-color: rgb(55 65 81);
+}
+
+input[type="checkbox"]:after {
+    content: url(icons8-check-15.png);
+    font-weight: 900;
+    font-size: 20px;
+    display: none;
+    color: white;
+}
+
+input[type="checkbox"]:hover {
+    background-color: #444b56;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #6366f1;
+}
+
+input[type="checkbox"]:checked:after {
+    display: block;
+}
+.r-me {
+    font-size: 14px;
+    margin-left: 8px;
+    color: white;
+    cursor: pointer;
+}

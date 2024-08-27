@@ -516,37 +516,152 @@ li {
     margin: 20px 201.750px 0px 201.750px;
 }
 
-/* .feature-box{
-    display: flex;
-} */
+.feature-box {
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid #1f2937;
+}
+
 .f-icon {
     padding: 12px;
     /* border: 1px solid white; */
     /* width: 48px; */
     color: #D1D5DB;
     display: inline-flex;
+    border-radius: 5px;
     background-color: #818CF8;
 }
-.feat-content{
+
+.feat-content {
     text-align: center;
     padding: 0px 24px 32px 24px;
+
     margin-top: -24px;
-    background-color: rgb(31 41 55);
+    border-radius: 10px;
+    border: 1px solid #1f2937;
+    background-color: #1f2937;
+
 }
-.feat-ct-h3{
+
+.feat-ct-h3 {
     font-size: 18px;
     color: #E5E7EB;
-    margin-top: 32px;
+    /* margin-top: px; */
 }
-.feat-ct-txt{
+
+.feat-ct-txt {
     font-size: 16px;
     color: #6B7280;
     margin-top: 20px;
 }
-.feats{
+
+.feats {
     padding-top: 24px;
-    
+    background-color: rgb(31 41 55);
+    border-radius: 10px;
+    border: 1px solid #1f2937;
+
 }
-/* .feat-icon{
-   
-} */
+
+.feat-icon {
+    position: relative;
+    top: -25px;
+}
+
+.description {
+    background-color: rgb(31 41 55);
+    padding: 64px 0px 128px 0px;
+}
+
+.poll-section {
+    width: 100%;
+}
+
+.meeting-section {
+    width: 100%;
+    margin-top: 96px;
+}
+
+.cntnr {
+    width: 95%;
+    justify-content: space-between;
+}
+
+.desc-h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+
+.clr-gry {
+    color: #6B7280;
+}
+
+.desc-p {
+    font-size: 18px;
+    margin-top: 16px;
+}
+
+.text-white {
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: #6366f1;
+}
+
+.inflex {
+    display: inline-flex;
+}
+
+.poll-section-btns,
+.meeting-section-btns {
+    margin-top: 24px;
+}
+
+.poll-btns {
+    padding: 12px 16px;
+    border: 1px solid;
+    border-radius: 7px;
+    font-weight: 600;
+}
+
+.c-poll-btn {
+    border-color: #6366f1;
+    color: white;
+    background-color: #6366f1;
+}
+
+.c-poll-btn:hover {
+    background-color: #4f46e5;
+    border-color: #4f46e5;
+}
+
+.ex-btn {
+    background-color: #374151;
+    color: #D1D5DB;
+    border-color: #374151;
+    margin-left: 12px;
+}
+
+.ex-btn:hover {
+    background-color: #4b5563;
+    border-color: #4b5563;
+}
+
+.meet-img,
+.cntnr-img {
+    border: 1px solid rgb(74, 75, 86);
+    border-radius: 13px;
+}
+
+.left-section {
+    padding: 64px 80px 64px 20px;
+}
+
+.right-txt {
+    padding: 128px 42px 128px 100px;
+}
+
+.bottom-feats-container {
+    margin-top: 48px;
+}

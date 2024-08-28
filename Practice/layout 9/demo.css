@@ -407,6 +407,7 @@ li {
 .demo-bottom{
     border-top: 1px solid #374151;
     padding-top: 32px;
+    margin-top: 30px;
     width: 70%;
 }
 .m-awrd{
@@ -426,24 +427,91 @@ li {
     color: white;
     border-color: #6366f1;
 }
+.update-btn:hover{
+    background-color: #7377ff;
+    border-color: #7377ff;
+}
 .result-btn{
     padding: 8px 16px;
     margin-left: 16px;
     background-color: #ffffff0d;
-    border-color: #4f5057;
+    border-color:  #4a4a4d;
     color: #94A3B8;
+}
+.result-btn:hover{
+    background-color: #ffffff0d;
+    border-color: #ffffff0d;
 }
 .form-btns{
     margin-top: 32px;
 }
-.demo-middle{
+
+.result-icon{
+    margin: 0px 8px 0px -4px;
+}
+.form-h{
+    font-size: 24px;
+    color: #E5E7EB;
+    font-weight: 600;
+}
+.f-p-txt{
+    font-size: 16px;
+    color: #94A3B8;
+}
+fieldset{
+    border: none;
+    margin-top: 16px;
+}
+.form-opt{
+    font-size: 17px;
+    color: #94A3B8;
+    margin-left: 12px;
+    font-weight: 300;
+}
+.opt-se{
+    margin-top: 12px;
+   
+}
+.c-hov{
+    cursor: pointer;
+}
+.new-vt-txt{
+    font-size: 16px;
+    color: #94A3B8;
+}
+.new-vote-link{
+    font-size: 16px;
+    color: #818CF8;
+}
+.new-update-vote{
+    margin-top: 32px;
+}
+.new-vote-link:hover{
+    color: #6366f1;
+}
+.polling-form{
     padding: 24px;
+}
+.demo-middle{
     margin-bottom: 32px;
+    width: 56%;
     border: 1px solid #374151;
     border-top-width: 4px;
+    background-color: #1f2937;
     border-radius: 6px;
     border-top-color: #818CF8;
 }
-.result-icon{
-    margin: 0px 8px 0px -4px;
+.votes{
+    padding: 12px 24px;
+    border-top: 1px solid #94A3B8;
+}
+.n-votes{
+    font-size: 16px;
+    color: #94A3B8;
+}
+.f-p-box{
+    margin-top: 32px;
+}
+.opt-one{
+    margin-top: 0px;
 }

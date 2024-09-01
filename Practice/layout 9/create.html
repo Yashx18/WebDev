@@ -77,7 +77,7 @@
           </div>
         </header>
         <main>
-          <div class="create-poll-page flex-item-center">
+          <div class="create-poll-page flex-item-center flex-direction-column">
             <div
               class="create-poll-container flex-item-center flex-direction-column"
             >
@@ -91,18 +91,136 @@
                 <div class="form-section">
                   <form action="#">
                     <fieldset>
-                      <div class="question">
-                        <label for="#" class="q-title">Title</label>
-                        <input type="text" class="q-input-txt"/>
-                        <div class="add-btn">
-                          <button class=""></button>
+                      <div class="question d-flex flex-direction-column">
+                        <label for="#" class="label">Title</label>
+                        <input type="text" placeholder="Type your question here" class="q-input-txt"/>
+                        <div class="add-btn-box">
+                          <button class="add-btn d-flex">
+                            <svg class="h-5 w-5 " xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20" stroke="" width="20px">
+                              <path fill-rule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z" clip-rule="evenodd"></path>
+                            
+                            </svg>
+                            <span class="form-txt">Add description or image</span>
+                          </button>
                         </div>
                       </div>
+                      <div class="poll-type-box d-flex flex-direction-column">
+                        <label for="#" class="label">Poll type</label>
+                        <select name="options" id="options" class="opts-box">
+                          <option value="Multiple choice">
+                            <div class="m-c">
+                              <svg class="h-5 w-5 " xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20" stroke="">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                              </svg>
+                              <span>Multiple choice</span>
+                            </div>
+                           </option>
+                          <option value="Meeting poll">Meeting poll</option>
+                          <option value="Image poll">Image poll</option>
+                          <option value="Ranking poll">Ranking poll</option>
+                        </select>
+                      </div>
+                      <div class="ans-opt">
+                        <div class="lbl d-flex align-item-center justify-content-space-between">
+                          <label for="#" class="label">Answer Options</label>
+                          <button class="pst-btn">Paste answers</button>
+                        </div>
+                        <div class="inpt-sec d-flex flex-direction-column">
+                          <input type="text" placeholder="Option 1" class="opt-sec one">
+                         
+                          <input type="text" placeholder="Option 2" class="opt-sec two">
+                        </div>
+                        <div class="inpt-btn-sec d-flex align-item-center">
+                          <button class="add-opt d-flex align-item-center">
+                            <svg class="-ml-2 mr-1 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" width="20px">
+                              <path fill-rule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z" clip-rule="evenodd"></path>
+                    
+                            </svg>
+                            <span>Add option</span>
+                          </button>
+                          <span class="m-left or">or</span>
+                          <button class="othr-btn m-left">Add "others"</button>
+                        </div>
+                      </div>
+                      <div class="settings-sec">
+                        <div class="setting-top"><span>Settings</span></div>
+                        <div class="settings-col d-flex justify-content-space-between">
+                          <div class="left-col d-flex flex-direction-column">
+                            <div class="check-opt d-flex align-item-center justify-content-space-between">
+                              <span>Allow selection of multiple options</span>
+                              <input type="checkbox" name="" id="">
+                            </div>
+                            <div class="check-opt d-flex align-item-center justify-content-space-between r-p-name">
+                              <span>Require participants' names</span>
+                              <input type="checkbox" name="" id="">
+                            </div>
+                          </div>
+                          <div class="right-col d-flex flex-direction-column">
+                            <div class="security">
+                              <div class="d-flex align-item-center justify-content-space-between info-btn">
+                                <label for="#" class="label">Voting security</label>
+                                <button class="lrn-mr">Learn more</button>
+                              </div>
+                              <select id="voting-security" name="voting-security" class="select" x-model="poll.pollConfig.duplicationChecking" :disabled="false">
+                                <option value="none" :disabled="true" x-show="true" disabled="disabled">Allow multiple votes per person</option>
+                                <option value="ip" >One vote per IP address</option>
+                                <option value="session" :disabled="false" x-show="true">One vote per browser session</option>
+
+                                <option value="user" >One vote per StrawPoll account</option>
+                                <option value="token" >One vote per unique code</option>
+                            </select>
+                            </div>
+                            <div class="check-opt d-flex justify-content-space-between align-item-center  right-col-btns">
+                              <span>Block VPN users</span>
+                              <input type="checkbox" name="" id="">
+                            </div>
+                            <div class="check-opt d-flex justify-content-space-between align-item-center right-col-btns">
+                             <div class="div d-flex align-item-center justify-content-space-around ">
+                              <span>Use reCAPTCHA</span>
+                              <span class="mgn-left pro-box">PRO</span>
+                              <button x-tooltip="When this feature is enabled, a background check is performed to protect against bot voting." class="d-flex mgn-left svg-info">
+                                <svg class="h-5 w-5 " xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20" stroke="" width="20px">
+                                <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path>
+                              
+                              </svg></button>
+                             </div>
+                              <input type="checkbox" name="" id="">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="advance-s-box">
+                          <button class="advnc-stng d-flex">
+                            <svg class="h-5 w-5 " xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20" stroke="" width="20px">
+                              <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
+                            
+                            </svg>
+                            <span>Show advanced Settings</span></button>
+                        </div>
+                      </div>
+                      <button class="c-poll">Create poll</button>
                     </fieldset>
                   </form>
                 </div>
               </div>
+              
             </div>
+            <div class="total-users flex-item-center flex-direction-column">
+              <p class="p-text">TRUSTED BY OVER 1,500,000 USERS WORLDWIDE</p>
+              <div class="users-number-container d-flex flex-item-center">
+                  <div class="users b-right flex-item-center flex-direction-column ">
+                      <span class="user-numbers">1.5M+</span>
+                      <span class="user-text">Users</span>
+                  </div>
+                  <div class="users b-right flex-item-center flex-direction-column ">
+                      <span class="user-numbers">11M+</span>
+                      <span class="user-text">Polls</span>
+                  </div>
+                  <div class="users flex-item-center flex-direction-column ">
+                      <span class="user-numbers">260M+</span>
+                      <span class="user-text">Votes</span>
+                  </div>
+              </div>
+          </div>
           </div>
         </main>
         <footer>

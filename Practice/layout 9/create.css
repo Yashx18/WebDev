@@ -5,111 +5,110 @@
     font-weight: 400;
     font-style: normal;
     text-decoration: none;
-}
-
-.d-flex {
+  }
+  
+  .d-flex {
     display: flex;
-}
-
-.align-item-center {
+  }
+  
+  .align-item-center {
     align-items: center;
-}
-
-.align-item-left {
+  }
+  
+  .align-item-left {
     align-items: flex-start;
-}
-
-.justify-content-center {
+  }
+  
+  .justify-content-center {
     justify-content: center;
-}
-
-.justify-content-space-around {
+  }
+  
+  .justify-content-space-around {
     justify-content: space-around;
-}
-
-.justify-content-space-between {
+  }
+  
+  .justify-content-space-between {
     justify-content: space-between;
-}
-
-.justify-content-space-evenly {
+  }
+  
+  .justify-content-space-evenly {
     justify-content: space-evenly;
-}
-
-.flex-direction-column {
+  }
+  
+  .flex-direction-column {
     flex-direction: column;
-}
-
-.flex-item-center {
+  }
+  
+  .flex-item-center {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.strawpoll-landing-page {
+  }
+  
+  .strawpoll-landing-page {
     width: 100%;
-}
-
-.front-page {
+  }
+  
+  .front-page {
     width: 100%;
     /* background-color: aqua; */
-}
-
-.navigation-bar {
+  }
+  
+  .navigation-bar {
     width: 100%;
     position: fixed;
     top: 0px;
     border-bottom: 1px solid #424f62;
     background-color: #1f2937;
-}
-
-.nav-bar {
+  }
+  
+  .nav-bar {
     width: 90%;
     /* border: 1px solid black; */
     background-color: #1f2937;
-}
-
-.left-navbar-section {
+  }
+  
+  .left-navbar-section {
     width: 50%;
-}
-
-.strawpoll-logo {
+  }
+  
+  .strawpoll-logo {
     width: 30%;
-}
-
-.left-section-btns {
+  }
+  
+  .left-section-btns {
     width: 70%;
-}
-
-.right-navbar-section {
+  }
+  
+  .right-navbar-section {
     width: 15%;
     /* background-color: red; */
-}
-
-.user-btns {
+  }
+  
+  .user-btns {
     width: 100%;
-}
-
-.logo {
+  }
+  
+  .logo {
     font-size: 30px;
     font-weight: 600;
     color: white;
     padding: 9px 20px 9px 0px;
-}
-
-.user-buttons {
+  }
+  
+  .user-buttons {
     text-decoration: none;
     font-weight: 500;
-
-}
-
-.login-btn {
+  }
+  
+  .login-btn {
     color: #dfe2e8;
     /* border: 1px solid black; */
     font-size: 14px;
     padding: 10px 20px 10px 20px;
-}
-
-.sign-up-btn {
+  }
+  
+  .sign-up-btn {
     color: white;
     background-color: #6366f1;
     border: 1px solid #6366f1;
@@ -117,175 +116,186 @@
     padding: 8px 16px;
     margin-right: 15px;
     border-radius: 8px;
-}
-
-.front-landing-page {
+  }
+  
+  .front-landing-page {
     /* width: 100%; */
     background-color: #111827;
-}
-
-/* .front-img-background{
-} */
-.index-splash {
+  }
+  
+  /* .front-img-background{
+  } */
+  .index-splash {
     margin-top: 98px;
     border: 1px solid #111827;
     border-radius: 16px;
     box-shadow: 10px;
-}
-
-.create-poll:hover {
+  }
+  
+  .create-poll:hover {
     border-bottom: 2px solid rgb(192, 187, 187);
     padding: 21px 10px 19px 10px;
     color: #cbced2;
-}
-
-.schedule-meeting:hover {
+  }
+  
+  .schedule-meeting:hover {
     border-bottom: 2px solid rgb(192, 187, 187);
     padding: 21px 10px 19px 10px;
     color: #cbced2;
-}
-
-.demo:hover {
+  }
+  
+  .demo:hover {
     border-bottom: 2px solid rgb(192, 187, 187);
     padding: 21px 10px 19px 10px;
     color: #cbced2;
-}
-
-.pricing:hover {
+  }
+  
+  .pricing:hover {
     border-bottom: 2px solid rgb(192, 187, 187);
     padding: 21px 10px 19px 10px;
     color: #cbced2;
-}
-
-.navbar-buttons {
+  }
+  
+  .navbar-buttons {
     text-decoration: none;
     color: #dfe2e8;
     font-size: 14px;
     font-weight: 600;
     padding: 21px 10px 21px 10px;
-}
-.login-btn:hover {
-    color: #818CF8;
+  }
+  .login-btn:hover {
+    color: #818cf8;
     /* border: 1px solid black; */
     font-size: 14px;
     padding: 10px 20px 10px 20px;
-}
-.sign-up-btn:hover {
+  }
+  .sign-up-btn:hover {
     color: white;
-    background-color: #4F46E5;
-    border: 1px solid #4F46E5;
+    background-color: #4f46e5;
+    border: 1px solid #4f46e5;
     font-size: 14px;
     padding: 8px 16px;
     margin-right: 15px;
     border-radius: 8px;
-}
-.bottom-section {
+  }
+  .bottom-section {
     width: 100%;
     border-top: 1.5px solid #445064;
     background-color: rgba(17, 24, 39, 255);
-}
-
-.footer-container {
+  }
+  
+  .footer-container {
     width: 90%;
     padding-top: 60px;
     /* border: 1px solid white; */
-}
-
-.copyright-text {
-    color: #9CA3AF;
-}
-
-.link-list {
+  }
+  
+  .copyright-text {
+    color: #9ca3af;
+  }
+  
+  .link-list {
     list-style: none;
-}
-li{
+  }
+  li {
     margin-top: 16px;
-}
-.link{
+  }
+  .link {
     color: rgb(129 140 248);
-    
-}
-.link:hover{
+  }
+  .link:hover {
     color: rgb(99 102 241);
-}
-.about-strawpoll{
+  }
+  .about-strawpoll {
     width: 31%;
-}
-.footer-links-section{
+  }
+  .footer-links-section {
     width: 100%;
-}
-.footer-heading{
-    color: #D1D5DB;
-}
-.footer-strawpoll-logo{
-    color: #D1D5DB;
-}
-.footer-color{
-    color: #D1D5DB;
-}
-.language{
-    color: #E5E7EB;
-}
-.language-button{
+  }
+  .footer-heading {
+    color: #d1d5db;
+  }
+  .footer-strawpoll-logo {
+    color: #d1d5db;
+  }
+  .footer-color {
+    color: #d1d5db;
+  }
+  .language {
+    color: #e5e7eb;
+  }
+  .language-button {
     font-size: 14px;
     background-color: rgb(55 65 81);
-    border: 1px solid  rgb(55 65 81);
+    border: 1px solid rgb(55 65 81);
     padding: 8px 16px;
     border-radius: 5px;
-    
-}
-.language-button:hover{
+  }
+  .language-button:hover {
     background-color: rgb(81, 92, 111);
-    border: 1px solid  rgb(81, 92, 111);
+    border: 1px solid rgb(81, 92, 111);
     cursor: pointer;
-}
-/* .dropdown-icon{
+  }
+  /* .dropdown-icon{
     margin-left: 500px;
-} */
- .language-text{
+  } */
+  .language-text {
     margin-right: 9px;
- }
- .copyrights{
+  }
+  .copyrights {
     padding: 32px 0 32px 0;
     margin-top: 48px;
     width: 100%;
- }
- .footer-text{
+  }
+  .footer-text {
     margin-top: 32px;
     word-spacing: -1px;
- }
- .btn{
+  }
+  .btn {
     margin-left: 12px;
     display: flex;
- }
- .social-media-links{
+  }
+  .social-media-links {
     width: 100%;
     margin-top: 32px;
- }
-.language-option{
+  }
+  .language-option {
     margin-top: 32px;
-}
-.l-button{
+  }
+  .l-button {
     margin-left: 12px;
-}
-.footer-h3{
+  }
+  .footer-h3 {
     font-weight: 600;
     font-size: 16px;
-}
-.strawpoll-link-section{
+  }
+  .strawpoll-link-section {
     width: 69%;
-}
-.link-box{
+  }
+  .link-box {
     width: 45%;
     /* margin-left: 15px; */
-}
-.solution-support-section{
+  }
+  .solution-support-section {
     width: 42%;
-}
-.company-legal-section{
+  }
+  .company-legal-section {
     width: 42%;
-}
-.create-poll-page{
+  }
+  .create-poll-page {
     margin-top: 65px;
     background-color: #111827;
-}
+  }
+  .cp-heading {
+    font-size: 30px;
+    color: #f3f4f6;
+  }
+  .cp-txt {
+    font-size: 14px;
+    color: #6b7280;
+    margin-top: 8px;
+  }
+  .cp-top-section {
+    text-align: center;
+  }
+  

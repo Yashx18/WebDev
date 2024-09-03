@@ -466,11 +466,16 @@ fieldset{
     font-size: 17px;
     color: #94A3B8;
     margin-left: 12px;
-    font-weight: 300;
+    font-weight: 400;
 }
 .opt-se{
     margin-top: 12px;
    
+}
+.opt-all{
+    border: 1px solid #ffffff24;
+    padding: 12px 16px 12px 20px;
+    border-radius: 7px;
 }
 .c-hov{
     cursor: pointer;
@@ -515,3 +520,134 @@ fieldset{
 .opt-one{
     margin-top: 0px;
 }
+@media screen and (max-width: 1335px) {
+    .demo-middle{
+        width: 80%;
+    }
+    .demo-bottom{
+        width: 80%;
+    }
+    .top-exp{
+        margin: 0px;
+    }
+    .exp{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .left-section-btns{
+        display: none;
+    }
+    .user-btns{
+        display: none;
+    }
+}
+@media screen and (max-width: 650px) {
+    .demo-middle{
+        width: 90%;
+    }
+    .demo-bottom{
+        width: 90%;
+    }
+    .footer-links-section{
+        flex-direction: column;
+    }
+    .about-strawpoll{
+        width: 100%;
+    }
+    .strawpoll-link-section{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .solution-support-section{
+        width: 100%;
+        margin: 40px 0px 30px;
+    }
+    .company-legal-section{
+        width: 100%;
+    }
+}
+/* @media screen and (max-width: 600px) {
+    .demo-middle{
+        width: 100%;
+    }
+} */
+@media screen and (max-width: 480px) {
+    .new-update-vote{
+        display: none;
+    }
+    .demo-middle{
+        width: 98%;
+    }
+    .demo-top{
+        padding: 64px 0px;
+    }
+    .top-h2{
+        font-size: 30px;
+        word-spacing: -1.8px;
+        font-weight: 700;
+    }
+    .update-btn{
+        padding: 8px 14px;
+    }
+    .result-btn{
+        padding: 8px 8px;
+        margin-left: 10px;
+    }
+    .demo-bottom{
+        width: 98%;
+    }
+    .form-opt{
+        font-size: 20px;
+    }
+    .n-votes{
+        display: none;
+    }
+    .exp-container{
+        flex-wrap: wrap;
+    }
+    .top-exp{
+        margin-bottom: 0px;
+    }
+    .exp{
+        width: 100%;
+        margin-bottom: 13px;
+    }
+    .btm-link{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .f-p-txt{
+        font-size: 20px;
+    }
+    .footer-container{
+        width: 94%;
+    }
+    .footer-links-section{
+        flex-direction: column;
+    }
+    .about-strawpoll{
+        width: 100%;
+    }
+    .strawpoll-link-section{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .solution-support-section{
+        width: 100%;
+        margin: 40px 0px 30px;
+    }
+    .company-legal-section{
+        width: 100%;
+    }
+    .left-section-btns{
+        display: none;
+    }
+    .user-btns{
+        display: none;
+    }
+    .copyrights{
+        display: block;
+    }
+}
+

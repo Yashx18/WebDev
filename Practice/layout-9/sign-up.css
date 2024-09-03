@@ -162,7 +162,7 @@ h2 {
 .input-section {
     background-color: rgb(255 255 255 / 0.05);
     --tw-text-opacity: 1;
-    width: 340px;
+    /* width: 340px; */
     color: rgb(255 255 255);
     /* --tw-ring-color:); */
     border-radius: 5px;
@@ -290,4 +290,8 @@ input[type="checkbox"]:checked:after {
     margin-left: 8px;
     color: white;
     cursor: pointer;
+}
+
+.name, .email, .password{
+    width: 100%;
 }

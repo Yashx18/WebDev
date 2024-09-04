@@ -330,3 +330,9 @@ input[type="checkbox"]:checked:after {
         padding: 24px 0px;
     }
 }
+
+@media screen and (max-width: 340px) {
+   .link-bg{
+    width: 36%;
+   }
+}

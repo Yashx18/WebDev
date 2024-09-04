@@ -415,15 +415,16 @@ li{
     align-items: baseline;
 }
 .absolute{
-    position: absolute;
-    top: 418px;
+    /* position: absolute;
+    top: 418px; */
 
     /* z-index: ; */
-    right: 455px;
+    /* right: 455px; */
     background-color: #6366F1;
     color: white;
     font-size: 14px;
     padding: 4px 12px;
+    padding: -100px 0px 100px 0px;
     border-radius: 25px;
 }
 ul{

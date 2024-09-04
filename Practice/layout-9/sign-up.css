@@ -335,4 +335,7 @@ input[type="checkbox"]:checked:after {
    .link-bg{
     width: 36%;
    }
+   h2{
+    font-size: 28px;
+   }
 }

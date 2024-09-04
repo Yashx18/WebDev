@@ -286,3 +286,66 @@ li{
 .company-legal-section{
     width: 42%;
 }
+@media screen and (max-width: 900px) {
+
+    .left-section-btns {
+      display: none;
+    }
+    /* .left-navbar-section{
+      width: 100%;
+    } */
+    .strawpoll-logo{
+      width: 100%;
+    }
+    .user-btns {
+      display: none;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+ 
+    .users-number-container {
+     flex-direction: column;
+   }
+   .b-right{
+     border: none;
+   }
+   .form-section{
+     width: 912%;
+   }
+   .footer-links-section {
+     flex-direction: column;
+   }
+   .settings-col{
+     flex-direction: column;
+   }
+   .opts-box{
+     width: 100%;
+   }
+   .left-col{
+     width: 100%;
+     margin-bottom: 40px;
+   }
+   .right-col{
+     width: 100%;
+     padding: 0px;
+     border: none;
+   }
+   .about-strawpoll {
+     width: 100%;
+   }
+ 
+   .strawpoll-link-section {
+     flex-wrap: wrap;
+     width: 100%;
+   }
+ 
+   .solution-support-section {
+     width: 100%;
+     margin: 40px 0px 30px;
+   }
+ 
+   .company-legal-section {
+     width: 100%;
+   }
+ }

@@ -60,12 +60,12 @@
 }
 
 .other-signup-option {
-    width: 366px;
+    width: 100%;
     margin-top: 24px;
 }
 
 .options-container {
-    width: 366px;
+    width: 100%;
     flex-wrap: wrap;
 
 }
@@ -82,6 +82,7 @@
     padding: 24px 40px 24px 40px;
     background-color: #1f2937;
     border-top-width: 4px;
+    width: 30.2%;
     border-top-color: rgb(129 140 248);
 }
 
@@ -169,7 +170,7 @@ h2 {
 .input-section {
     background-color: rgb(255 255 255 / 0.05);
     --tw-text-opacity: 1;
-    width: 340px;
+    /* width: 100%; */
     color: rgb(255 255 255);
     /* --tw-ring-color:); */
     border-radius: 5px;
@@ -224,7 +225,7 @@ h2 {
 
 .link-bg {
     background-color: rgb(75 85 99);
-    width: 143px;
+    width: 39%;
     padding: 6px 16px;
     display: flex;
     align-items: center;
@@ -303,4 +304,49 @@ input[type="checkbox"]:checked {
 
 input[type="checkbox"]:checked:after {
     display: block;
+}
+.form{
+    width: 100%;
+}
+.email , .password{
+    width: 100%;
+}
+.f-password{
+    font-size: 14px;
+}
+@media screen and (max-width: 1260px) {
+    .sign-up-form{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .middle-section{
+        padding: 24px 20px;
+    }
+    .sign-up-form{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 560px) {
+    .sign-up-form{
+        width: 95%;
+        padding: 24px 30px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .sign-up-form{
+        width: 100%;
+        padding: 24px 15px;
+    }
+    .middle-section{
+        padding: 24px 0px;
+    }
+    .link-bg{
+        padding: 6px 13px;
+    }
+}
+@media screen and (max-width: 350px) {
+    h2{
+        font-size: 24px;
+    }
 }

@@ -324,7 +324,7 @@ input[type="checkbox"]:checked:after {
 @media screen and (max-width: 480px) {
     .sign-up-form{
         width: 100%;
-        padding: 24px 17px;
+        padding: 24px 15px;
     }
     .middle-section{
         padding: 24px 0px;

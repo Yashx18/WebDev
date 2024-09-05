@@ -124,13 +124,15 @@
   background-color: #111827;
 }
 
-/* .front-img-background{
-  } */
+.front-img-background{
+  max-width: 100%;
+  }
+
 .index-splash {
+  width: 100%;
   margin-top: 98px;
   border: 1px solid #111827;
   border-radius: 16px;
-  box-shadow: 10px;
 }
 
 .create-poll:hover {
@@ -705,7 +707,7 @@ footer {
     border: none;
   }
   .form-section{
-    width: 912%;
+    width: 100%;
   }
   .footer-links-section {
     flex-direction: column;

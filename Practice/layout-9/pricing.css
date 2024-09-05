@@ -18,9 +18,11 @@
 .align-item-left {
     align-items: flex-start;
 }
+
 .align-item-stretch {
     align-items: stretch;
 }
+
 .justify-content-center {
     justify-content: center;
 }
@@ -184,12 +186,14 @@
 .copyright-text {
     color: #9CA3AF;
 }
+
 .login-btn:hover {
     color: #818CF8;
     /* border: 1px solid black; */
     font-size: 14px;
     padding: 10px 20px 10px 20px;
 }
+
 .sign-up-btn:hover {
     color: white;
     background-color: #4F46E5;
@@ -199,129 +203,162 @@
     margin-right: 15px;
     border-radius: 8px;
 }
+
 .link-list {
     list-style: none;
 }
-li{
+
+li {
     margin-top: 16px;
 }
-.link{
+
+.link {
     color: rgb(129 140 248);
-    
+
 }
-.link:hover{
+
+.link:hover {
     color: rgb(99 102 241);
 }
-.about-strawpoll{
+
+.about-strawpoll {
     width: 31%;
 }
-.footer-links-section{
+
+.footer-links-section {
     width: 100%;
 }
-.footer-heading{
+
+.footer-heading {
     color: #D1D5DB;
 }
-.footer-strawpoll-logo{
+
+.footer-strawpoll-logo {
     color: #D1D5DB;
 }
-.footer-color{
+
+.footer-color {
     color: #D1D5DB;
 }
-.language{
+
+.language {
     color: #E5E7EB;
 }
-.language-button{
+
+.language-button {
     font-size: 14px;
     background-color: rgb(55 65 81);
-    border: 1px solid  rgb(55 65 81);
+    border: 1px solid rgb(55 65 81);
     padding: 8px 16px;
     border-radius: 5px;
-    
+
 }
-.language-button:hover{
+
+.language-button:hover {
     background-color: rgb(81, 92, 111);
-    border: 1px solid  rgb(81, 92, 111);
+    border: 1px solid rgb(81, 92, 111);
     cursor: pointer;
 }
+
 /* .dropdown-icon{
     margin-left: 500px;
 } */
- .language-text{
+.language-text {
     margin-right: 9px;
- }
- .copyrights{
+}
+
+.copyrights {
     padding: 32px 0 32px 0;
     margin-top: 48px;
     width: 100%;
- }
- .footer-text{
+}
+
+.footer-text {
     margin-top: 32px;
     word-spacing: -1px;
- }
- .btn{
+}
+
+.btn {
     margin-left: 12px;
     display: flex;
- }
- .social-media-links{
+}
+
+.social-media-links {
     width: 100%;
     margin-top: 32px;
- }
-.language-option{
+}
+
+.language-option {
     margin-top: 32px;
 }
-.l-button{
+
+.l-button {
     margin-left: 12px;
 }
-.footer-h3{
+
+.footer-h3 {
     font-weight: 600;
     font-size: 16px;
 }
-.strawpoll-link-section{
+
+.strawpoll-link-section {
     width: 69%;
 }
-.link-box{
+
+.link-box {
     width: 45%;
     /* margin-left: 15px; */
 }
-.solution-support-section{
+
+.solution-support-section {
     width: 42%;
 }
-.company-legal-section{
+
+.company-legal-section {
     width: 42%;
 }
-.pricing-page{
+
+.pricing-page {
     margin-top: 65px;
     width: 100%;
     background-color: #111827;
 }
-.pricing-container{
+
+.pricing-container {
     width: 90%;
 }
-.pricing-top-section{
+
+.pricing-top-section {
     padding: 64px 48px;
     /* margin: 0px 98.5px; */
 }
-.p-top-h{
+
+.p-top-h {
     font-size: 36px;
     margin-bottom: 16px;
     font-weight: 700;
 }
-.p-top-p{
+
+.p-top-p {
     font-size: 18px;
 }
-.clr-w{
+
+.clr-w {
     color: #E2E8F0;
 }
-.clr-gray{
+
+.clr-gray {
     color: #94A3B8;
 }
-.billing-btns{
+
+.billing-btns {
     padding: 2px;
     background-color: #1f2937;
     border-radius: 6px;
 
 }
-.bill-btn{
+
+.bill-btn {
     padding: 8px 32px;
     font-size: 14px;
     border: none;
@@ -329,64 +366,78 @@ li{
     outline: none;
     cursor: pointer;
 }
-.clr-white{
+
+.clr-white {
     color: #D1D5DB;
 }
-.monthly-btn{
+
+.monthly-btn {
     background-color: #374151;
     color: #E5E7EB;
 }
-.yearly-btn{
+
+.yearly-btn {
     margin-left: 2px;
     background-color: #1f2937;
     color: #6B7280;
 }
-.billing-txt{
+
+.billing-txt {
     margin-top: 12px;
     font-size: 14px;
 }
-.svg-billing{
+
+.svg-billing {
     color: #EAB308;
     margin-right: 4px;
 }
-.plans-section{
+
+.plans-section {
     margin-top: 32px;
 }
-.btm-txt{
+
+.btm-txt {
     font-size: 14px;
     margin: 32px 0px 64px;
 }
-.clr-b-link{
+
+.clr-b-link {
     color: #818CF8;
 }
-.plans-section{
+
+.plans-section {
     width: 100%;
 }
-.billing-feat{
+
+.billing-feat {
     padding: 2px 8px;
     background-color: #32A8521A;
     color: #4ADE80;
     border-radius: 15px;
     font-size: 12px;
 }
-.billing-heading{
+
+.billing-heading {
     font-size: 18px;
     color: #E5E7EB;
     font-weight: 500;
 
 }
-.top-sec{
-    
+
+.top-sec {
+
     width: 83%;
     padding: 24px;
 }
-.b-txt{
+
+.b-txt {
     margin-top: 16px;
     font-size: 14px;
     color: #6B7280;
     word-spacing: -1px;
 }
-.buy-btn{
+
+.buy-btn {
     margin-top: 32px;
     padding: 8px 0px;
     background-color: #6366f1;
@@ -396,25 +447,30 @@ li{
     justify-content: center;
     border-radius: 5px;
 }
-.buy-btn:hover{
+
+.buy-btn:hover {
     background-color: #818cf8;
 }
-.amt{
+
+.amt {
     font-size: 36px;
     color: #E5E7EB;
     font-weight: 800;
 }
-.mo{
+
+.mo {
     font-size: 16px;
     color: #6B7280;
     font-weight: 400;
 }
-.amount{
+
+.amount {
     margin-top: 32px;
     display: flex;
     align-items: baseline;
 }
-.absolute{
+
+.absolute {
     /* position: absolute;
     top: 418px; */
 
@@ -427,15 +483,18 @@ li{
     padding: -100px 0px 100px 0px;
     border-radius: 25px;
 }
-ul{
+
+ul {
     list-style: none;
 }
-.bottom-sec{
+
+.bottom-sec {
     padding: 24px 24px 32px;
     border-top: 1px solid #6B7280;
     width: auto;
 }
-.included{
+
+.included {
     display: flex;
     align-items: flex-start;
     color: #6B7280;
@@ -444,30 +503,169 @@ ul{
     font-weight: 400;
     /* word-spacing: -px; */
 }
-.plan-box{
+
+.plan-box {
     border: 1px solid #374151;
     border-radius: 10px;
     width: 23%;
-    
+
     background-color: #1f2937;
 }
-.bottom-sec-h{
+
+.bottom-sec-h {
     color: #E5E7EB;
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
 }
-.text-green-500{
+
+.text-green-500 {
     color: #22C55E;
-   
+
 }
-.b-sec-txt{
+
+.b-sec-txt {
     margin-left: 12px;
 }
-.pro{
+
+.pro {
     border: 2px solid #6366F1;
     border-color: #818cf8;
 }
-.pricing-bottom-section{
+
+.pricing-bottom-section {
     align-content: stretch;
+}
+
+@media screen and (max-width: 1345px) {
+
+    .left-section-btns {
+        display: none;
+    }
+
+    .left-navbar-section {
+        width: 100%;
+    }
+
+    .strawpoll-logo {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .user-btns{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .plans-section {
+        flex-wrap: wrap;
+    }
+
+    .plan-box {
+        width: 48%;
+    }
+
+    .free,
+    .basic {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .users-number-container {
+        flex-direction: column;
+    }
+
+    .plan-box {
+        width: 100%;
+    }
+
+    .pricing-top-section {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .pro {
+        margin-bottom: 30px;
+    }
+
+    .b-right {
+        border: none;
+    }
+
+    .form-section {
+        width: 912%;
+    }
+
+    .footer-links-section {
+        flex-direction: column;
+    }
+
+    .settings-col {
+        flex-direction: column;
+    }
+
+    .opts-box {
+        width: 100%;
+    }
+
+    .left-col {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .right-col {
+        width: 100%;
+        padding: 0px;
+        border: none;
+    }
+
+    .about-strawpoll {
+        width: 100%;
+    }
+
+    .strawpoll-link-section {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .solution-support-section {
+        width: 100%;
+        margin: 40px 0px 30px;
+    }
+
+    .company-legal-section {
+        width: 100%;
+    }
+
+    .btm-txt {
+        text-align: center;
+    }
+
+    .pricing-top-section {
+        padding: 50px 0px;
+    }
+
+    .billing-btns {
+        width: 100%;
+    }
+
+    .bill-btn {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .billing-option {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 369px) {
+    .bill-btn{
+        padding: 8px 15px;
+    }
 }

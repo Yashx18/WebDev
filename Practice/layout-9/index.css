@@ -161,6 +161,7 @@
 }
 
 .index-splash {
+    width: 100%;
     margin-top: 98px;
     opacity: 0.29;
     box-shadow: inset -3px 1px 15px 118px rgba(0, 0, 0, 0.68);
@@ -652,6 +653,7 @@ li {
 .cntnr-img {
     border: 1px solid rgb(74, 75, 86);
     border-radius: 13px;
+    width: 100%;
 }
 
 .left-section {
@@ -668,3 +670,65 @@ li {
 .view-btn{
     margin-left: 16px;
 }
+.left-txt ,.right-img{
+    width: 100%;
+}
+.left-img, .right-txt{
+    width: 100%;
+}
+@media screen and (max-width: 1050px){
+    .section-container{
+        flex-direction: column;
+    }
+    .meeting-container{
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width: 700px) {
+ 
+    .users-number-container {
+     flex-direction: column;
+   }
+   .b-right{
+     border: none;
+   }
+   .form-section{
+     width: 100%;
+   }
+   .footer-links-section {
+     flex-direction: column;
+   }
+   .settings-col{
+     flex-direction: column;
+   }
+   .opts-box{
+     width: 100%;
+   }
+   .left-col{
+     width: 100%;
+     margin-bottom: 40px;
+   }
+   .right-col{
+     width: 100%;
+     padding: 0px;
+     border: none;
+   }
+   .about-strawpoll {
+     width: 100%;
+   }
+ 
+   .strawpoll-link-section {
+     flex-wrap: wrap;
+     width: 100%;
+   }
+ 
+   .solution-support-section {
+     width: 100%;
+     margin: 40px 0px 30px;
+   }
+ 
+   .company-legal-section {
+     width: 100%;
+   }
+ }
+ 

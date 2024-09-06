@@ -614,6 +614,7 @@ li {
     display: inline-flex;
 }
 
+
 .poll-section-btns,
 .meeting-section-btns {
     margin-top: 24px;
@@ -660,75 +661,215 @@ li {
     padding: 64px 80px 64px 20px;
 }
 
-.right-txt {
+.right-section {
     padding: 128px 42px 128px 100px;
 }
 
 .bottom-feats-container {
     margin-top: 48px;
 }
-.view-btn{
+
+.view-btn {
     margin-left: 16px;
 }
-.left-txt ,.right-img{
+
+.left-txt,
+.right-img {
     width: 100%;
 }
-.left-img, .right-txt{
+
+.left-img,
+.right-txt {
     width: 100%;
 }
-@media screen and (max-width: 1050px){
-    .section-container{
+
+@media screen and (max-width: 1300px) {
+    .right-section {
+        padding: 70px 42px 70px 100px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .right-section {
+        padding: 70px 42px 70px 100px;
+    }
+
+
+}
+
+@media screen and (max-width: 1150px) {
+    .section-container {
         flex-direction: column;
     }
-    .meeting-container{
+
+    .meeting-container {
         flex-direction: column-reverse;
     }
+
+    .right-section {
+        padding: 64px 80px 64px 20px;
+    }
+
+    .meeting-section {
+        margin-top: 48px;
+    }
 }
+
+@media screen and (max-width: 945px) {
+    .bottom-feats-container {
+        flex-direction: column;
+    }
+    .txt-f-g{
+        width: 100%;
+    }
+
+    .feature-box {
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    .feats{
+        width: 100%;
+    }
+
+    .gs-container {
+        flex-direction: column;
+        margin: 0px
+    }
+
+    .gs-head,
+    .gs-btns {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+    .gs-container {
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width: 700px) {
- 
+
     .users-number-container {
-     flex-direction: column;
-   }
-   .b-right{
-     border: none;
-   }
-   .form-section{
-     width: 100%;
-   }
-   .footer-links-section {
-     flex-direction: column;
-   }
-   .settings-col{
-     flex-direction: column;
-   }
-   .opts-box{
-     width: 100%;
-   }
-   .left-col{
-     width: 100%;
-     margin-bottom: 40px;
-   }
-   .right-col{
-     width: 100%;
-     padding: 0px;
-     border: none;
-   }
-   .about-strawpoll {
-     width: 100%;
-   }
- 
-   .strawpoll-link-section {
-     flex-wrap: wrap;
-     width: 100%;
-   }
- 
-   .solution-support-section {
-     width: 100%;
-     margin: 40px 0px 30px;
-   }
- 
-   .company-legal-section {
-     width: 100%;
-   }
- }
- 
+        flex-direction: column;
+    }
+    .feature-box{
+        width: 100%;
+    }
+    .front-text{
+        border: 1px solid #111827;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .front-content{
+        position: static;
+        margin-top: 100px;
+        margin-left: 0px;
+        padding: 64px 16px;
+    }
+    .front-text{
+        margin-left: 0px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .txt-front-pg{
+        text-align: center;
+    }
+    .poll-create{
+        width: 62%;
+        flex-direction: column;
+    }
+    .btn-b{
+        margin-top: 15px;
+    }
+    .no-signup{
+        display: none;
+    }
+
+    .b-right {
+        border: none;
+    }
+
+    .form-section {
+        width: 100%;
+    }
+
+    .footer-links-section {
+        flex-direction: column;
+    }
+
+    .settings-col {
+        flex-direction: column;
+    }
+
+    .opts-box {
+        width: 100%;
+    }
+
+    .left-col {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .right-col {
+        width: 100%;
+        padding: 0px;
+        border: none;
+    }
+
+    .about-strawpoll {
+        width: 100%;
+    }
+
+    .strawpoll-link-section {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .solution-support-section {
+        width: 100%;
+        margin: 40px 0px 30px;
+    }
+
+    .company-legal-section {
+        width: 100%;
+    }
+
+    .index-splash {
+        display: none;
+    }
+    .gs-btn{
+        width: 100% ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 645px) {
+    .index-splash {
+        display: none;
+    }
+}
+@media screen and (max-width: 450px){
+    .h1-text{
+        font-size: 48px;
+    }
+    .txt-front-pg{
+        font-size: 18px;
+    }
+    .left-section {
+        padding: 50px 15px 50px 15px;
+    }
+    .right-section {
+        padding: 40px 15px 40px 15px;
+    }
+    .poll-btns{
+        padding: 10px 12px;
+    }
+    
+}

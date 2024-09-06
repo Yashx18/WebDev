@@ -871,5 +871,7 @@ li {
     .poll-btns{
         padding: 10px 12px;
     }
-    
+    .gs-btn{
+        padding: 8px 12px;
+    }
 }

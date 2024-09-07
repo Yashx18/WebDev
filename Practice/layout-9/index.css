@@ -854,6 +854,9 @@ li {
     .index-splash {
         display: none;
     }
+    .features-container {
+        padding: 0px;
+    }
 }
 @media screen and (max-width: 450px){
     .h1-text{

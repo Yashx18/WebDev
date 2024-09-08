@@ -6,7 +6,7 @@
     font-style: normal;
     text-decoration: none;
 }
-
+/* abount us css*/
 .d-flex {
     display: flex;
 }
@@ -697,7 +697,7 @@ li {
 
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1170px) {
     .section-container {
         flex-direction: column;
     }
@@ -712,6 +712,9 @@ li {
 
     .meeting-section {
         margin-top: 48px;
+    }
+    .create-btn{
+        padding: 12px 30px;
     }
 }
 
